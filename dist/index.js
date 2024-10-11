@@ -30502,8 +30502,7 @@ async function fetchAndFilterEvents() {
                 : (eventDescriptions[type][action]
                     ? eventDescriptions[type][action]({ repo, pr, isPrivate, payload })
                     : core.warning(`Unknown action: ${action}`)))
-            // : core.warning(`Unknown event: ${event}`);
-            : core.warning(`Unknown event: ${JSON.stringify(event)}`)
+            : core.warning(`Unknown event: ${typeof eventDescriptions[type]}`);
 
         return style === 'MARKDOWN'
             ? `${index + 1}. ${description}`
@@ -32443,7 +32442,7 @@ async function main() {
     }
 }
 
-// Execute the main function
+// Entrypoint
 main();
 
 module.exports = __webpack_exports__;
