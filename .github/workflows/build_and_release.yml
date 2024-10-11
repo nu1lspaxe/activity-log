@@ -29,7 +29,7 @@ jobs:
       - name: Commit
         run: |
           git config --global user.name 'Nu1LSpaxe'
-          git config --global user.email '82641653+nu1lspaxe@users.noreply.github.com'
+          git config --global user.email 'nu1lspaxe.anonym0ux@gmail.com'
           git commit -am "dist build"
           git push
 
