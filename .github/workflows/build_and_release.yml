@@ -41,7 +41,7 @@ jobs:
       - name: Pull latest
         run: |
           git config --global user.name 'Nu1LSpaxe'
-          git config --global user.email '142639231+raymundlin@users.noreply.github.com'
+          git config --global user.email '82641653+nu1lspaxe@users.noreply.github.com'
           git pull
       - name: Tag it
         run: |
