@@ -32442,8 +32442,7 @@ async function main() {
     }
 }
 
-// Execute the main function
-// Im here
+// Run the main function
 main();
 
 module.exports = __webpack_exports__;
