@@ -30211,6 +30211,13 @@ const eventDescriptions = {
 
         return description;
     },
+    'MemberEvent': ({ repo, isPrivate, payload }) => { 
+        const { member, action } = payload;
+
+        return isPrivate
+            ? '👤 Collaborators are modified in a private repo'
+            : `👤 Collaborator ${member.login} is ${action} in [${repo.name}](https://github.com/${repo.name})`;
+    },
 };
 
 module.exports = eventDescriptions;
@@ -30502,7 +30509,7 @@ async function fetchAndFilterEvents() {
                 : (eventDescriptions[type][action]
                     ? eventDescriptions[type][action]({ repo, pr, isPrivate, payload })
                     : core.warning(`Unknown action: ${action}`)))
-            : core.warning(`Unknown event: ${typeof eventDescriptions[type]}`);
+            : core.warning(`Unknown event: ${event}`);
 
         return style === 'MARKDOWN'
             ? `${index + 1}. ${description}`
