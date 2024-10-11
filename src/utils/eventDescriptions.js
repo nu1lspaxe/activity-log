@@ -243,6 +243,13 @@ const eventDescriptions = {
 
         return description;
     },
+    'MemberEvent': ({ repo, isPrivate, payload }) => { 
+        const { member, action } = payload;
+
+        return isPrivate
+            ? '👤 Collaborators are modified in a private repo'
+            : `👤 Collaborator ${member.login} is ${action} in [${repo.name}](https://github.com/${repo.name})`;
+    },
 };
 
 module.exports = eventDescriptions;

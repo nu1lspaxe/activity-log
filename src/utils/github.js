@@ -151,7 +151,7 @@ async function fetchAndFilterEvents() {
                 : (eventDescriptions[type][action]
                     ? eventDescriptions[type][action]({ repo, pr, isPrivate, payload })
                     : core.warning(`Unknown action: ${action}`)))
-            : core.warning(`Unknown event: ${typeof eventDescriptions[type]}`);
+            : core.warning(`Unknown event: ${event}`);
 
         return style === 'MARKDOWN'
             ? `${index + 1}. ${description}`
