@@ -50,7 +50,7 @@ jobs:
           INPUT_IGNORE_EVENTS: '[]'
           INPUT_README_PATH: README.md
           INPUT_COMMIT_MESSAGE: Update README.md
-          INPUT_EVENT_LIMIT: '100'
+          INPUT_EVENT_LIMIT: '30'
         run: node ./dist/index.js
 
   release:
