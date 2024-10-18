@@ -15,5 +15,4 @@ async function main() {
     }
 }
 
-// Entry point
 main();
