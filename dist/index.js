@@ -32449,7 +32449,7 @@ async function main() {
     }
 }
 
-// Run main
+// Entry point
 main();
 
 module.exports = __webpack_exports__;
