@@ -18,16 +18,23 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔀 Merged [PR #17](https://github.com/Wiresense/wiresense.js/pull/17) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-2. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-10-07` in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-3. 🔎 Reviewed [PR #17](https://github.com/Wiresense/wiresense.js/pull/17) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-4. 🔀 Merged [PR #33](https://github.com/Wiresense/frontend/pull/33) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-5. 🔀 Merged [PR #16](https://github.com/Wiresense/wiresense.js/pull/16) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-6. 🔎 Reviewed [PR #16](https://github.com/Wiresense/wiresense.js/pull/16) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-7. 🔀 Merged [PR #31](https://github.com/Wiresense/frontend/pull/31) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-8. 📝 Committed to [Wiresense/frontend](https://github.com/Wiresense/frontend/commit/c3033c6dd92c6ba79069aec4be284256be551447)
-9. 🔎 Reviewed [PR #31](https://github.com/Wiresense/frontend/pull/31) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-10. ❌ Closed [PR #59](https://github.com/TheDanniCraft/Portfolio/pull/59) in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio)
+1. 📝 Committed to [nu1lspaxe/activity-log](https://github.com/nu1lspaxe/activity-log/commit/1478c8d30dabc9d13f9e9dc47b327690f6f9d4d4)
+2. 📝 Committed to [nu1lspaxe/activity-log](https://github.com/nu1lspaxe/activity-log/commit/74dae166f10c9fde386240e7579894a351eda083)
+3. 📝 Committed to [nu1lspaxe/activity-log](https://github.com/nu1lspaxe/activity-log/commit/fa362e333d7d028764324447414cdb73c76feedd)
+4. 📝 Committed to [nu1lspaxe/activity-log](https://github.com/nu1lspaxe/activity-log/commit/d98223179f456e31a1b2de7cdf0c44677e0808bb)
+5. 📝 Committed to [nu1lspaxe/activity-log](https://github.com/nu1lspaxe/activity-log/commit/53c953249707de1279784dbfedaa796ee0c8db6f)
+6. 📝 Committed to [nu1lspaxe/activity-log](https://github.com/nu1lspaxe/activity-log/commit/636d8f34e010f56c4a3e4fd7f6dd21c7ee5d686b)
+7. 📝 Committed to [nu1lspaxe/activity-log](https://github.com/nu1lspaxe/activity-log/commit/26e58c9c6dd1da0d5dfd1c04ee8ddd454e33a68e)
+8. 📝 Committed to [nu1lspaxe/activity-log](https://github.com/nu1lspaxe/activity-log/commit/786acfabd03b3730bc09253544d9c336046bcb87)
+9. 📝 Committed to [nu1lspaxe/activity-log](https://github.com/nu1lspaxe/activity-log/commit/bf69d47620e9d662c2f211aa009b64261a6c8c14)
+10. 📝 Committed to [nu1lspaxe/activity-log](https://github.com/nu1lspaxe/activity-log/commit/0835dee4a4b1a09188bf399d55553bdab6731d41)
+11. 📝 Committed to [nu1lspaxe/activity-log](https://github.com/nu1lspaxe/activity-log/commit/8e5cd03c6524ce463a3808a499a9998e9d1516d2)
+12. 📝 Committed to [nu1lspaxe/activity-log](https://github.com/nu1lspaxe/activity-log/commit/bff27cb8ee9477e223148a1445843f0865395acb)
+13. ➕ Created a new tag [`v1`](https://github.com/nu1lspaxe/activity-log/releases/tag/v1) in [nu1lspaxe/activity-log](https://github.com/nu1lspaxe/activity-log)
+14. 🚀 Published release [`v1`](https://github.com/nu1lspaxe/activity-log/releases/tag/v1) in [nu1lspaxe/activity-log](https://github.com/nu1lspaxe/activity-log)
+15. 📝 Committed to [nu1lspaxe/activity-log](https://github.com/nu1lspaxe/activity-log/commit/43d5d280023f6bb308ed06c93a1d8fdd08324200)
+16. 📝 Committed to [nu1lspaxe/activity-log](https://github.com/nu1lspaxe/activity-log/commit/0725288fd23d61a3f4ba3b484f8cf5c186121305)
+17. 📝 Committed to [nu1lspaxe/activity-log](https://github.com/nu1lspaxe/activity-log/commit/7a0b58f841b380caf2587b48e6afa3147360feaf)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
