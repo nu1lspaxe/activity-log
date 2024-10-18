@@ -15,5 +15,5 @@ async function main() {
     }
 }
 
-// Entrypoint
+// Run main
 main();
