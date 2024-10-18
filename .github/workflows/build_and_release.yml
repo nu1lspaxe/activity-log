@@ -33,9 +33,29 @@ jobs:
           git commit -am "dist build"
           git push
 
-  release:
+  test:
     runs-on: ubuntu-latest
     needs: build
+    defaults:
+      run: 
+        shell: bash
+    steps:
+      - uses: actions/checkout@v4
+      - name: Test index.js
+        env: 
+          INPUT_GITHUB_USERNAME: "Nu1LSpaxe"
+          INPUT_GITHUB_TOKEN: ${{ secrets.ACTIVITY_LOG }}
+          INPUT_TARGET_REPOS: '[nu1lspaxe/activity-log]'
+          INPUT_OUTPUT_STYLE: MARKDOWN
+          INPUT_IGNORE_EVENTS: '[]'
+          INPUT_README_PATH: README.md
+          INPUT_COMMIT_MESSAGE: Update README.md
+          INPUT_EVNET_LIMIT: '100'
+        run: node ./dist/index.js
+
+  release:
+    runs-on: ubuntu-latest
+    needs: test
     steps:
       - uses: actions/checkout@v4
       - name: Pull latest
